@@ -10,4 +10,14 @@ class School
   def roster
     @roster
   end
+
+  def add_student(student, grade)
+  end
+
+  def grade
+  end
+
+  def sort
+  end
+
 end
