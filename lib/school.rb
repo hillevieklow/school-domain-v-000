@@ -15,8 +15,9 @@ class School
     if @roster[age] = nil?
       @roster[age] = []
       @roster[age] << student
+    else
+      @roster[age] << student
     end
-    @roster[age] << student
   end
 
   def grade(grade_level)
