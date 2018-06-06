@@ -6,6 +6,6 @@ class School
     @name = name
   end
 
-  roster = {}
+roster = {}
 
 end
