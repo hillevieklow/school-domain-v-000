@@ -14,6 +14,7 @@ class School
   def add_student(student, age)
     if @roster[age] = nil?
       @roster[age] = []
+      @roster[age] << student
     end
     @roster[age] << student
   end
